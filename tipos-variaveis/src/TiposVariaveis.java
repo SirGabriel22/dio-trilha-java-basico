@@ -52,5 +52,15 @@ public class TiposVariaveis {
 
         System.out.println(- num); // Entretanto, num permanece positivo.
         System.out.println(!true); // Impressão de valor booleano
+
+        /*-------------------------------------------------------------- */
+
+        // Operador ternário
+
+        int a = 5, b = 6;
+
+        boolean x = a == b ? true : false;
+
+        System.out.println(x);
     }
 }
