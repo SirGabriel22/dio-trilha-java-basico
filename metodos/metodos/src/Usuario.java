@@ -10,5 +10,15 @@ public class Usuario {
         aparelho.ligarSmartTv();
 
         System.out.println("SmartTv ligada? " + aparelho.ligada);
+
+        aparelho.diminuirVolume();
+        aparelho.diminuirVolume();
+        aparelho.diminuirVolume();
+
+        System.out.println("Volume atual: " + aparelho.volume);
+
+        aparelho.aumentarVolume();
+
+        System.out.println("Volume atual: " + aparelho.volume);
     }
 }
