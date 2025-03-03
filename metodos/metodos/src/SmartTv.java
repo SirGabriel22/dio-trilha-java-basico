@@ -29,4 +29,16 @@ public class SmartTv {
             volume++;
         }
     }
+
+    public void aumentarCanal(){
+        canal++;
+    }
+
+    public void diminuirCanal(){
+        canal--;
+    }
+
+    public void mudarCanal(int novoCanal){
+        canal = novoCanal;
+    }
 }

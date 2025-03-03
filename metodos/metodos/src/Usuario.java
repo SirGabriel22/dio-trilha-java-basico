@@ -20,5 +20,9 @@ public class Usuario {
         aparelho.aumentarVolume();
 
         System.out.println("Volume atual: " + aparelho.volume);
+
+        aparelho.mudarCanal(13);
+
+        System.out.println("Canal atual: " + aparelho.canal);
     }
 }
