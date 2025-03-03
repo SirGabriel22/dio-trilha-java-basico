@@ -4,6 +4,7 @@ public class AboutMe {
         int idade = Integer.valueOf(args[1]);
         double altura = Double.valueOf(args[2]);
 
-        System.out.println("Me chamo" + nome + ", tenho " + idade + " anos e tenho " + altura "m de altura");
+        System.out.println("Me chamo " + nome + ", tenho " + idade + " anos e tenho " + altura +"m de altura");
     }
+    //Lembrete: Os dados serão inseridos pela linha de comando!!!
 }
