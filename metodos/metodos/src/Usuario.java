@@ -25,4 +25,11 @@ public class Usuario {
 
         System.out.println("Canal atual: " + aparelho.canal);
     }
+
+    /** Documentação de um código é feita com dois asteriscos,
+     * como é visto nesse exemplo.
+     */
+    public static void metodo(){
+        System.out.println(" ");
+    }
 }
