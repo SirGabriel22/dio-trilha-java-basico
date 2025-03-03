@@ -1,4 +1,5 @@
 public class TiposVariaveis {
+
     public static void main(String[] args) {
         //Casting:
 
@@ -62,5 +63,12 @@ public class TiposVariaveis {
         boolean x = a == b ? true : false;
 
         System.out.println(x);
+
+        System.out.println(somar(1,2));
     }
+
+    public static int somar(int a, int b){ // Sem esquecer do static!!!
+        return a + b;
+    }
+
 }
