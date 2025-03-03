@@ -65,10 +65,26 @@ public class TiposVariaveis {
         System.out.println(x);
 
         System.out.println(somar(1,2));
+
+        try{
+            System.out.println(dividir(1,0));
+        }catch (Exception e){
+            System.out.println("Erro! " + e.getMessage());
+        }
+    
     }
 
     public static int somar(int a, int b){ // Sem esquecer do static!!!
         return a + b;
+    }
+
+    public static int dividir(int a, int b) throws Exception {
+          
+        if(b == 0){
+            throw new Exception("Divisão por zero não está definida.");
+        }
+        
+        return a/b;
     }
 
 }
